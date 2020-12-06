@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+{{ block "title" . }}
+    <title>
+        {{ if .IsHome }}
+            {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} — {{ . }} {{ end }}
+        {{ else }}
+            {{ .Title }} :: {{ $.Site.Title }} {{ with $.Site.Params.Subtitle }} — {{ . }}{{ end }}
+        {{ end }}
+    </title>
+{{ end }}
+
+<meta name="description" content="C'est le studio de design graphique de Sébastien Thiroux, spécialisé dans la création d'identité visuelle et son déploiment sur le web">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script>document.getElementsByTagName("html")[0].className += " js";</script>
+
+<link rel="manifest" href="site.webmanifest">
+<link rel="apple-touch-icon" href="icon.png">
+<!-- Place favicon.ico in the root directory -->
+
+<link rel="stylesheet" href="https://use.typekit.net/kac6wgd.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" type="text/css">
+
+{{ range .Site.Params.main_css -}}
+<link rel="stylesheet" href="{{ . | absURL}}">
+{{- end }}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Galleries on </title>
+    <link>http://example.org/en/galleries/</link>
+    <description>Recent content in Galleries on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 22 Nov 2020 21:30:18 +0100</lastBuildDate><atom:link href="http://example.org/en/galleries/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Le jardin vertical</title>
+      <link>http://example.org/en/galleries/le-jardin-vertical/</link>
+      <pubDate>Sun, 22 Nov 2020 21:30:18 +0100</pubDate>
+      
+      <guid>http://example.org/en/galleries/le-jardin-vertical/</guid>
+      <description>La rencontre du jardin…</description>
+    </item>
+    
+    <item>
+      <title>Vue d&#39;en haut</title>
+      <link>http://example.org/en/galleries/vue-d-en-haut/</link>
+      <pubDate>Sat, 21 Nov 2020 23:41:32 +0100</pubDate>
+      
+      <guid>http://example.org/en/galleries/vue-d-en-haut/</guid>
+      <description>Une série de collages qui…</description>
+    </item>
+    
+    <item>
+      <title>À vol d&#39;oiseaux</title>
+      <link>http://example.org/en/galleries/a-vol-d-oiseaux/</link>
+      <pubDate>Fri, 20 Nov 2020 10:31:10 +0100</pubDate>
+      
+      <guid>http://example.org/en/galleries/a-vol-d-oiseaux/</guid>
+      <description>Une introduction à rédiger…</description>
+    </item>
+    
+    <item>
+      <title>La source</title>
+      <link>http://example.org/en/galleries/la-source/</link>
+      <pubDate>Thu, 19 Nov 2020 10:35:03 +0100</pubDate>
+      
+      <guid>http://example.org/en/galleries/la-source/</guid>
+      <description>Une introduction à rédiger…</description>
+    </item>
+    
+    <item>
+      <title>Croquis au crayon</title>
+      <link>http://example.org/en/galleries/croquis-au-crayon/</link>
+      <pubDate>Wed, 18 Nov 2020 10:35:30 +0100</pubDate>
+      
+      <guid>http://example.org/en/galleries/croquis-au-crayon/</guid>
+      <description>Une introduction à rédiger…</description>
+    </item>
+    
+    <item>
+      <title>Croquis à l&#39;encre de chine</title>
+      <link>http://example.org/en/galleries/croquis-a-l-encre-de-chine/</link>
+      <pubDate>Tue, 17 Nov 2020 10:36:03 +0100</pubDate>
+      
+      <guid>http://example.org/en/galleries/croquis-a-l-encre-de-chine/</guid>
+      <description>Une introduction à rédiger…</description>
+    </item>
+    
+    <item>
+      <title>Croquis au fusain</title>
+      <link>http://example.org/en/galleries/croquis-au-fusain/</link>
+      <pubDate>Mon, 16 Nov 2020 10:46:31 +0100</pubDate>
+      
+      <guid>http://example.org/en/galleries/croquis-au-fusain/</guid>
+      <description>Une introduction à rédiger…</description>
+    </item>
+    
+  </channel>
+</rss>

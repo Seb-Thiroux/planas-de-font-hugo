@@ -1,0 +1,28 @@
+{{ define "main" }}
+    
+    <main class="site-content" aria-role="main">
+
+        {{ if .Content }}
+            <div class="content">{{ .Content }}</div>
+        {{ end }}
+
+        <section class="site-container site-container--l site-container-grid thumbnails">
+
+        
+            {{ range .Pages }}
+            <article class="stack thumbnail">
+                <a href="{{.Permalink}}">
+                    {{ partial "thumbnails.html" . }}
+                    <h3 class="thumbnail__title">{{.Title}}</h3>
+                </a>
+
+                {{ partial "tags.html" . }}
+                {{ partial "categories.html" . }}
+
+            </article>
+            {{ end }}
+
+        </section>
+
+    </main>
+{{ end }}

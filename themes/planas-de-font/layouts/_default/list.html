@@ -1,0 +1,31 @@
+{{ define "main" }}
+    
+    <main class="position-relative z-index-1 flex-grow" aria-role="main">
+        <section class="section-block-flex margin-bottom-xl">
+        <h1 class="page-title section-title margin-bottom-xxl">{{ .Title }}</h1>
+
+        {{ if .Content }}
+            <div class="content">{{ .Content }}</div>
+        {{ end }}
+
+        </section>
+
+        {{ range .Pages.GroupByDate "2006" }}
+            <section class="thumbnails">
+                <h2>TEST</h2>
+            
+                {{ range .Pages }}
+                <article class="stack thumbnail">
+                    <a href="{{ .Permalink }}"><h3 class="thumbnail__title">{{.Title}}</h3></a>
+                    <p>{{.Summary}}</p>
+
+                    {{ partial "tags.html" . }}
+                    {{ partial "categories.html" . }}
+
+                </article>
+                {{ end }}
+
+            </section>
+        {{ end }}
+    </main>
+{{ end }}

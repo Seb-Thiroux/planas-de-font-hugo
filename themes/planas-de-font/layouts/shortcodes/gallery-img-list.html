@@ -1,0 +1,5 @@
+<ul class="parent js-float-sidenav-target">
+{{ range .Page.Resources }}
+  <li class="child">{{ .ResourceType | title }}</li>
+{{ end }}
+</ul>

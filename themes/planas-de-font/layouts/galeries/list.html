@@ -1,0 +1,73 @@
+{{ define "main" }}
+    
+  <main class="position-relative z-index-1 flex-grow page__content-galeries">
+    
+    {{ if .Content }}
+      <div class="content">{{ .Content }}</div>
+    {{ end }}
+
+    
+    <section class="section-block-flex margin-bottom-xl">
+      <h1 class="page-title section-title margin-bottom-xxl">{{ .Title }}</h1>
+
+      <form class="filter__galeries-form">
+        <fieldset class="margin-bottom-md">
+          <legend class="form-legend">Filtrer</legend>
+
+          <ul class="flex flex-wrap gap-md" aria-controls="filter-gallery">
+            <li class="flex items-center">
+              <input class="margin-right-xxxs" type="radio" name="radio-category" id="radio-category-all" data-filter="*" checked>
+              <label class="text-sm" for="radio-category-all">Tout</label>
+            </li>
+
+            <li class="flex items-center">
+              <input class="margin-right-xxxs" type="radio" name="radio-category" id="radio-category-1" data-filter="[themes]">
+              <label class="text-sm" for="radio-category-1">thèmes</label>
+            </li>
+        
+            <li class="flex items-center">
+              <input class="margin-right-xxxs" type="radio" name="radio-category" id="radio-category-2" data-filter="[techniques]">
+              <label class="text-sm" for="radio-category-2">techniques</label>
+            </li>
+        
+            <li class="flex items-center">
+              <input class="margin-right-xxxs" type="radio" name="radio-category" id="radio-category-3" data-filter="[evenements]">
+              <label class="text-sm" for="radio-category-3">évènements</label>
+            </li>
+          </ul>
+        </fieldset>
+      </form>
+
+      {{ range .Pages.GroupByDate "2006" }}
+        <ul class="js-filter" id="filter-gallery">
+        {{ range .Pages }}
+          <li class="article-block js-filter__item" data-filter="{{ with .Params.categories }}{{.}}{{ end }}">
+            <a class="story-v3 padding-y-md js-story-v3" href="{{ .Permalink }}" data-story-img-src="{{ with .Params.thumbnail }}{{.}}{{ end }}" data-story-img-align="right" data-story-img-offset-x="60px" data-story-img-width="30%" data-story-img-class="display@lg">
+              <div class="grid gap-md">
+
+                <div class="text-component col-6@md position-relative z-index-2">
+                  <h1 class="story-v3__title text-xl font-italic">{{.Title}}</h1>
+                  <!-- {{ partial "galeries-categories.html" . }} -->
+                </div>
+
+                <div class="display@md col@md flex@md justify-end" aria-hidden="true">
+                    <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="37" y1="14" x2="47" y2="24" />
+                        <line x1="47" y1="24" x2="37" y2="34" />
+                        <line x1="47" y1="24" x2="1.5" y2="24" />
+                      </g>
+                    </svg>
+                </div>
+
+              </div>
+            </a>
+          </li>
+
+        {{ end }}
+        </ul>
+      {{ end }}
+      
+    </section>
+  </main>
+{{ end }}

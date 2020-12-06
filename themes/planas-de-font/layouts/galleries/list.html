@@ -1,0 +1,37 @@
+{{ define "main" }}
+    
+    <main class="site-content site-main-blocks galeries-list-page" aria-role="main">
+      <h1 class="page-title block-title">{{ .Title }}</h1>
+        
+        {{ if .Content }}
+          <div class="content">{{ .Content }}</div>
+        {{ end }}
+
+        {{ range .Pages.GroupByDate "2006" }}
+          <section class="">
+
+            {{ range .Pages }}
+            <article class="article-block galeries-list">
+              <div>
+                <h3 class="article-title"><a class="galeries-link" href="{{ .Permalink }}">{{.Title}}</a></h3>
+                {{ partial "categories.html" . }}
+              </div>
+
+              <div class="more-link" aria-hidden="true">
+                <a class="galeries-link" href="{{ .Permalink }}">
+                  <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
+                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="37" y1="14" x2="47" y2="24" />
+                      <line x1="47" y1="24" x2="37" y2="34" />
+                      <line x1="47" y1="24" x2="1.5" y2="24" />
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </article>
+            {{ end }}
+
+          </section>
+        {{ end }}
+    </main>
+{{ end }}

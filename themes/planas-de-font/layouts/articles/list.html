@@ -1,0 +1,32 @@
+{{ define "main" }}
+    
+    <main class="site-content" aria-role="main">
+        <!-- <h1>{{ .Title }}</h1> -->
+
+        {{ if .Content }}
+            <div class="content">{{ .Content }}</div>
+        {{ end }}
+
+        {{ range .Pages.GroupByDate "2006" }}
+            <section class="grid site-container site-container--l">
+
+            
+                {{ range .Pages }}
+                <article class="stack thumbnail">
+                    <div class="stack">
+                        <h2 class="article-title"><a href="{{.Permalink}}">{{ .Title }}</a></h2>
+                        
+                        <p>{{ .Summary }}</p>
+                    </div>
+                    <a href="{{ .Permalink }}">lire l'article</a>
+
+                    {{ partial "tags.html" . }}
+                    {{ partial "categories.html" . }}
+
+                </article>
+                {{ end }}
+
+            </section>
+        {{ end }}
+    </main>
+{{ end }}

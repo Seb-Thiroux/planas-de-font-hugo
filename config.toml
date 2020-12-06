@@ -1,0 +1,96 @@
+baseURL = "http://example.org/"
+languageCode = "fr"
+title = "My New Hugo Site"
+theme        = "planas-de-font"
+
+DefaultContentLanguage = "fr"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Metadata mostly used in document's head
+  description = "Seb Thiroux Studio – Portfolio"
+  keywords = "homepage, blog"
+  images = [""]
+
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+  themeColor = "#151515"
+
+  # First, set the variable to use with Params, then define the path 
+  # to the file as an array […]. This way it's possible to add more 
+  # than one CSS file if needed.
+  main_css = ["css/main.css", "js/main.js"]
+
+  # [params.portrait]
+  # path     = "/img/pink-mountains.jpg"
+  # alt      = "Portrait"
+
+
+# [menu]
+# [[menu.main]]
+#    identifier = "projets"
+#    name       = "Projets"
+#    url        = "projets/"
+#  [[menu.main]]
+#    identifier = "articles"
+#    name       = "Articles"
+#    url        = "articles/"
+#  [[menu.main]]
+#    identifier = "a-propos"
+#    name       = "À propos"
+#    url        = "a-propos/"
+
+[languages]
+  [languages.fr]
+    title = ""
+    contentDir = "content/fr"
+    LanguageName = "Français"
+    weight    = 1
+    keywords = ""
+
+  [languages.en]
+    title = ""
+    contentDir = "content/en"
+    LanguageName = "English"
+    weight    = 2
+    
+  [[languages.fr.menu.main]]
+    name = "Accueil"
+    url = "index.html"
+    weight = 1
+  [[languages.fr.menu.main]]
+    name = "Galeries"
+    url = "/galeries"
+    weight = 2
+  [[languages.fr.menu.main]]
+    name       = "Biographie"
+    url        = "/biographie"
+    weight = 3
+  [[languages.fr.menu.main]]
+    name       = "Contact"
+    url        = "/contact"
+    weight = 4
+
+  [[languages.en.menu.main]]
+    name = "Home"
+    url = "index.html"
+    weight = 1
+  [[languages.en.menu.main]]
+    name = "Galleries"
+    url = "/galleries"
+    weight = 2
+  [[languages.en.menu.main]]
+    name       = "Biography"
+    url        = "/biography"
+    weight = 3
+  [[languages.en.menu.main]]
+    name       = "Contact me"
+    url        = "/contact-me"
+    weight = 4

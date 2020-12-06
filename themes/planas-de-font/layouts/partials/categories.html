@@ -1,0 +1,7 @@
+{{ with .Params.categories }}
+    <p class="text-sm color-contrast-higher opacity-50%">
+        {{ range . -}}
+            <span><a href="{{ "categories/" | absLangURL }}{{ . | urlize }}/">{{.}}</a></span>
+        {{ end }}
+    </p>
+{{ end }}

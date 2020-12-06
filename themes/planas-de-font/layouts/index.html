@@ -1,0 +1,28 @@
+{{ define "main" }}
+    <main class="site-content site-container site-main-blocks" aria-role="main">
+        <section class="section-block-flex margin-bottom-xl">
+            <h1 class="page-title section-title margin-bottom-xxl">{{ .Title }}</h1>
+
+            {{ if .Content }}
+                {{ .Content }}
+            {{ end }}
+
+        <!-- {{ if .IsHome }}
+            {{ range .Pages.GroupByDate "2020" }}
+                <section class="stack">
+
+                    {{ range .Pages }}
+                    <article class="article-block">
+                        <h3 class="article-title">{{.Title}}</h3>
+
+                        {{ .Content }}
+
+                    </article>
+                    {{ end }}
+
+                </section>
+            {{ end }}
+        {{ end }} -->
+        </section>
+    </main>
+{{ end }}
