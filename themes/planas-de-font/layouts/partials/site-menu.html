@@ -5,7 +5,7 @@
     {{- $firstUrlElement := print "/" (index (split .URL "/") 1) -}}
     
     {{ range .Site.Menus.main -}}
-        <li class="menu__item"><a href="{{ .URL | relLangURL }}" class="{{if or ($.IsMenuCurrent "main" .) (eq ($firstUrlElement|lower) (.URL|lower)) }}active{{end}}">{{ .Name }}</a></li>
+        <li class="menu__item {{if or ($.IsMenuCurrent "main" .) (eq ($firstUrlElement|lower) (.URL|lower)) }}active{{end}}"><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
     {{- end }}
   </ul>
 

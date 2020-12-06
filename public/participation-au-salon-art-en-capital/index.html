@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 
 
@@ -15,6 +15,8 @@
 <meta name="description" content="C'est le studio de design graphique de Sébastien Thiroux, spécialisé dans la création d'identité visuelle et son déploiment sur le web">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<script>document.getElementsByTagName("html")[0].className += " js";</script>
+
 <link rel="manifest" href="site.webmanifest">
 <link rel="apple-touch-icon" href="icon.png">
 
@@ -22,72 +24,96 @@
 <link rel="stylesheet" href="https://use.typekit.net/kac6wgd.css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" type="text/css">
 
-<link rel="stylesheet" href="http://example.org/css/main.css"><link rel="stylesheet" href="http://example.org/js/main.js">
+<link rel="stylesheet" href="https://sebthiroux.com/planasdefont/css/main.css">
 
-    </head>
+</head>
 
-    <body class="site ">
+<body class="site ">
+	<div class="padding-component hide@md no-js:is-hidden">
+    <button class="btn btn--primary" aria-controls="sidebar">Menu</button>
+  </div>
+  
+  <div class="flex@md min-height-100vh">
+  	<aside class="sidebar sidebar--static@md js-sidebar" data-static-class="position-relative z-index-1 flex-grow max-width-xxxxs border-right" id="sidebar" aria-labelledby="sidebar-title">
+  <div class="sidebar__panel sticky-menu">
+    <header class="sidebar__header z-index-2">
+      <a class="brand" href="https://sebthiroux.com/planasdefont/" title="lien de retour à la page d'accueil">
+      	<img src="img/logo-signature.png" alt="Logo Planas de Font">
+    	</a>
+
+      <button class="reset sidebar__close-btn js-sidebar__close-btn js-tab-focus">
+        <svg class="icon icon--xs" viewBox="0 0 16 16"><title>Fermer le menu</title><g stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><line x1="13.5" y1="2.5" x2="2.5" y2="13.5"></line><line x1="2.5" y1="2.5" x2="13.5" y2="13.5"></line></g></svg>
+      </button>
+    </header>
+    
+    <div class="position-relative z-index-1">
       
-      <header id="top" class="site-header site-container site-main-blocks ">
-	<div class="">
-		<a class="brand" href="/" title="lien de retour à la page d'accueil">
-      Planas de Font
-    </a>
-
-		<nav class="site-nav">
-  <ul class="menu"><li class="menu__item"><a href="/index.html" class="">Accueil</a></li><li class="menu__item"><a href="/galeries" class="">Galeries</a></li><li class="menu__item"><a href="/biographie" class="">Biographie</a></li><li class="menu__item"><a href="/contact" class="">Contact</a></li>
+      <div class="text-component">
+        <a href="index.html">
+          <img class="brand" src="img/logo-signature.png" alt="Logo Planas de Font">
+        </a>
+        <nav class="site-nav">
+  <ul class="menu"><li class="menu__item "><a href="https://sebthiroux.com/planasdefont/index.html">Accueil</a></li><li class="menu__item "><a href="https://sebthiroux.com/planasdefont/galeries">Galeries</a></li><li class="menu__item "><a href="https://sebthiroux.com/planasdefont/biographie">Biographie</a></li><li class="menu__item "><a href="https://sebthiroux.com/planasdefont/contact">Me contacter</a></li>
   </ul><ul class="language-switcher">
   
-    <li class="">
-      <a class="" href="http://example.org/">Français</a>
+    <li>
+      <a href="https://sebthiroux.com/planasdefont/">Français</a>
     </li>
   
-    <li class="">
-      <a class="" href="http://example.org/en/">English</a>
+    <li>
+      <a href="https://sebthiroux.com/planasdefont/en/">English</a>
     </li>
   
 </ul></nav>
-
-	</div>
-</header>
-
-
+      </div>
       
+    </div>
+  </div>
+</aside>
+
+
+  	
     <main class="site-content site-container site-main-blocks" aria-role="main">
-        <h1 class="page-title block-title">Participation au salon art en capital</h1>
-        <div class="post-info">
+        <section class="section-block-flex margin-bottom-xl">
+        <h1 class="page-title section-title margin-bottom-xxl">Participation au salon art en capital</h1>
+        TEST
+         <div class="post-info">
             
             </p>
         </div>
 
-        <article class="stack">
+            <article class="stack">
 
-            
+                
 
-            <div class="post-content">
-                <p>Grand Palais du 4 au 8 décembre 2013. Pour plus d’information, rendez-vous sur le site du salon.</p>
+                <div class="post-content">
+                    <p>Grand Palais du 4 au 8 décembre 2013. Pour plus d’information, rendez-vous sur le site du salon.</p>
 
-            </div>
-        </article>
+                </div>
+            </article>
+
+        </section>
 
         <div class="site-container post-info">
             
     <p>
         
 
-        <span class="tag"><a href="http://example.org/tags//"></a></span>
+        <span class="tag"><a href="https://sebthiroux.com/planasdefont/tags//"></a></span>
         
     </p>
 
             
-    <p class="thumbnail__categories">
-        <span><a href="http://example.org/categories//"></a></span>
+    <p class="text-sm color-contrast-higher opacity-50%">
+        <span><a href="https://sebthiroux.com/planasdefont/categories//"></a></span>
         
     </p>
 
   		</div>
     </main>
 
-
-    </body>
+  </div>
+  
+  <script src="https://sebthiroux.com/planasdefont/js/scripts.min.js"></script>
+</body>
 </html>

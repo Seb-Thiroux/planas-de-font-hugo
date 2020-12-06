@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>techniques on </title>
+    <link>https://sebthiroux.com/planasdefont/categories/techniques/</link>
+    <description>Recent content in techniques on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 18 Nov 2020 10:35:30 +0100</lastBuildDate><atom:link href="https://sebthiroux.com/planasdefont/categories/techniques/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Croquis au crayon</title>
+      <link>https://sebthiroux.com/planasdefont/galeries/croquis-au-crayon/</link>
+      <pubDate>Wed, 18 Nov 2020 10:35:30 +0100</pubDate>
+      
+      <guid>https://sebthiroux.com/planasdefont/galeries/croquis-au-crayon/</guid>
+      <description>Une introduction à rédiger…</description>
+    </item>
+    
+    <item>
+      <title>Croquis à l&#39;encre de chine</title>
+      <link>https://sebthiroux.com/planasdefont/galeries/croquis-a-l-encre-de-chine/</link>
+      <pubDate>Tue, 17 Nov 2020 10:36:03 +0100</pubDate>
+      
+      <guid>https://sebthiroux.com/planasdefont/galeries/croquis-a-l-encre-de-chine/</guid>
+      <description>Une introduction à rédiger…</description>
+    </item>
+    
+    <item>
+      <title>Croquis au fusain</title>
+      <link>https://sebthiroux.com/planasdefont/galeries/croquis-au-fusain/</link>
+      <pubDate>Mon, 16 Nov 2020 10:46:31 +0100</pubDate>
+      
+      <guid>https://sebthiroux.com/planasdefont/galeries/croquis-au-fusain/</guid>
+      <description>Une introduction à rédiger…</description>
+    </item>
+    
+  </channel>
+</rss>

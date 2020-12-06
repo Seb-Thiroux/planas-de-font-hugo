@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Huile sur toile on </title>
-    <link>http://example.org/en/categories/huile-sur-toile/</link>
+    <link>https://sebthiroux.com/planasdefont/en/categories/huile-sur-toile/</link>
     <description>Recent content in Huile sur toile on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 22 Nov 2020 21:30:18 +0100</lastBuildDate><atom:link href="http://example.org/en/categories/huile-sur-toile/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2020 21:30:18 +0100</lastBuildDate><atom:link href="https://sebthiroux.com/planasdefont/en/categories/huile-sur-toile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Le jardin vertical</title>
-      <link>http://example.org/en/galleries/le-jardin-vertical/</link>
+      <link>https://sebthiroux.com/planasdefont/en/galleries/le-jardin-vertical/</link>
       <pubDate>Sun, 22 Nov 2020 21:30:18 +0100</pubDate>
       
-      <guid>http://example.org/en/galleries/le-jardin-vertical/</guid>
+      <guid>https://sebthiroux.com/planasdefont/en/galleries/le-jardin-vertical/</guid>
       <description>La rencontre du jardin…</description>
     </item>
     
     <item>
       <title>Vue d&#39;en haut</title>
-      <link>http://example.org/en/galleries/vue-d-en-haut/</link>
+      <link>https://sebthiroux.com/planasdefont/en/galleries/vue-d-en-haut/</link>
       <pubDate>Sat, 21 Nov 2020 23:41:32 +0100</pubDate>
       
-      <guid>http://example.org/en/galleries/vue-d-en-haut/</guid>
+      <guid>https://sebthiroux.com/planasdefont/en/galleries/vue-d-en-haut/</guid>
       <description>Une série de collages qui…</description>
     </item>
     

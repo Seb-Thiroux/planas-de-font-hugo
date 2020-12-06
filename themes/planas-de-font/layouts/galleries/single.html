@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <main class="" aria-role="main">
+    <main class="position-relative z-index-1 flex-grow" aria-role="main">
 
         <div class="post-info">
             {{ if .IsTranslated }}
@@ -22,18 +22,69 @@
 
             {{ end }} -->
 
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumbs text-sm" aria-label="Breadcrumbs">
+                <ol class="flex flex-wrap gap-xxs">
+                  
+                    <li class="breadcrumbs__item">
+                        <a href="http://localhost:1313/planasdefont/en/galleries/index.html" class="color-inherit">Back to Galleries</a>
+                        <span class="color-contrast-low margin-left-xxs" aria-hidden="true"></span>
+                    </li>
+                  
+                </ol>
+            </nav>
+
             <div class="post-content">
                 {{ .Content }}
-                <!-- {{ partial "tags.html" . }}
-                {{ partial "categories.html" . }} -->
+                
+                <ul class="pn-links grid">
+                    <li class="pn-links__item col-6@md">
+                    {{ with .PrevInSection }}
+                        <a class="pn-links__link justify-start" href="{{.Permalink}}">
+                            <svg class="pn-links__icon icon icon--lg flip-x" viewBox="0 0 48 48">
+                              <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="37" y1="14" x2="47" y2="24" />
+                                <line x1="47" y1="24" x2="37" y2="34" />
+                                <line x1="47" y1="24" x2="1.5" y2="24" />
+                              </g>
+                            </svg>
+
+                            <span class="margin-left-sm">
+                              <i class="sr-only">Previous : </i>{{.Title}}  
+                            </span>
+                        </a>
+                    {{ end }}
+                    </li>
+
+                    <li class="pn-links__item col-6@md">
+                    {{ with .NextInSection }}
+                    <a class="pn-links__link justify-end" href="{{.Permalink}}">
+                        <span class="margin-right-sm">
+                             <i class="sr-only">Next : </i>{{.Title}}                        
+                        </span>
+                        
+                        <svg class="pn-links__icon icon icon--lg" viewBox="0 0 48 48">
+                          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="37" y1="14" x2="47" y2="24" />
+                            <line x1="47" y1="24" x2="37" y2="34" />
+                            <line x1="47" y1="24" x2="1.5" y2="24" />
+                          </g>
+                        </svg>
+                    </a>
+                    {{ end }}
+                    </li>
+
+                </ul>
+
             </div>
         </section>
 
         <div class="site-container post-info">
             {{- if .GitInfo }}
-			    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg><a href="{{ .Site.Params.gitUrl -}}{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a> @ {{ if .Site.Params.dateformNum }}{{ dateFormat .Site.Params.dateformNum .GitInfo.AuthorDate.Local }}{{ else }}{{ dateFormat "2006-01-02" .GitInfo.AuthorDate.Local }}{{ end }}</p>
-			{{- end }}
-  		</div>
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-git-commit"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg><a href="{{ .Site.Params.gitUrl -}}{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a> @ {{ if .Site.Params.dateformNum }}{{ dateFormat .Site.Params.dateformNum .GitInfo.AuthorDate.Local }}{{ else }}{{ dateFormat "2006-01-02" .GitInfo.AuthorDate.Local }}{{ end }}</p>
+            {{- end }}
+        </div>
         
     </main>
+    <script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer></script>
 {{ end }}

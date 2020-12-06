@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://sebthiroux.com/planasdefont/"
 languageCode = "fr"
-title = "My New Hugo Site"
+title = "Planas de font – Portfolio"
 theme        = "planas-de-font"
 
 DefaultContentLanguage = "fr"
@@ -26,26 +26,13 @@ DefaultContentLanguage = "fr"
   # First, set the variable to use with Params, then define the path 
   # to the file as an array […]. This way it's possible to add more 
   # than one CSS file if needed.
-  main_css = ["css/main.css", "js/main.js"]
+  main_css = ["css/main.css"]
+  main_js = ["js/scripts.min.js"]
 
   # [params.portrait]
-  # path     = "/img/pink-mountains.jpg"
+  # path     = "/img/planas-de-font-01.jpg"
   # alt      = "Portrait"
 
-
-# [menu]
-# [[menu.main]]
-#    identifier = "projets"
-#    name       = "Projets"
-#    url        = "projets/"
-#  [[menu.main]]
-#    identifier = "articles"
-#    name       = "Articles"
-#    url        = "articles/"
-#  [[menu.main]]
-#    identifier = "a-propos"
-#    name       = "À propos"
-#    url        = "a-propos/"
 
 [languages]
   [languages.fr]
@@ -71,11 +58,11 @@ DefaultContentLanguage = "fr"
     weight = 2
   [[languages.fr.menu.main]]
     name       = "Biographie"
-    url        = "/biographie"
+    url        = "biographie"
     weight = 3
   [[languages.fr.menu.main]]
-    name       = "Contact"
-    url        = "/contact"
+    name       = "Me contacter"
+    url        = "contact"
     weight = 4
 
   [[languages.en.menu.main]]
@@ -84,13 +71,13 @@ DefaultContentLanguage = "fr"
     weight = 1
   [[languages.en.menu.main]]
     name = "Galleries"
-    url = "/galleries"
+    url = "galleries"
     weight = 2
   [[languages.en.menu.main]]
     name       = "Biography"
-    url        = "/biography"
+    url        = "biography"
     weight = 3
   [[languages.en.menu.main]]
     name       = "Contact me"
-    url        = "/contact-me"
+    url        = "contact-me"
     weight = 4

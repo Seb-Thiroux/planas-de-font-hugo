@@ -2,10 +2,8 @@
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
 name = "Sebthiroux Hugo"
-license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
 description = ""
-homepage = "http://example.com/"
+homepage = "https://sebthiroux/"
 tags = []
 features = []
 min_version = "0.41.0"
@@ -13,9 +11,3 @@ min_version = "0.41.0"
 [author]
   name = ""
   homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""

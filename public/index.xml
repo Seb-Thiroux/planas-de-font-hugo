@@ -2,119 +2,128 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on </title>
-    <link>http://example.org/</link>
+    <link>https://sebthiroux.com/planasdefont/</link>
     <description>Recent content in Introduction on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 22 Nov 2020 11:49:58 +0100</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Nov 2020 11:49:58 +0100</lastBuildDate><atom:link href="https://sebthiroux.com/planasdefont/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sous Le Petit Pont</title>
+      <link>https://sebthiroux.com/planasdefont/galeries/sous-le-petit-pont/</link>
+      <pubDate>Sun, 29 Nov 2020 21:27:04 +0100</pubDate>
+      
+      <guid>https://sebthiroux.com/planasdefont/galeries/sous-le-petit-pont/</guid>
+      <description>   Peinture 1       Show Page Navigation --   galerie :  Sous Le Petit Pont Ouvrir la fenêtre     Sous Le Petit Pont Fermer la fenêtre     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae culpa, inventore alias ab atque similique quod ea reprehenderit.
+Planas de Font
+     </description>
+    </item>
+    
     <item>
       <title>Rythmes Blancs</title>
-      <link>http://example.org/galeries/rythmes-blancs/</link>
+      <link>https://sebthiroux.com/planasdefont/galeries/rythmes-blancs/</link>
       <pubDate>Sun, 29 Nov 2020 18:25:32 +0100</pubDate>
       
-      <guid>http://example.org/galeries/rythmes-blancs/</guid>
-      <description> galerie : Rythmes Blancs  
-Planas de Font
-         </description>
+      <guid>https://sebthiroux.com/planasdefont/galeries/rythmes-blancs/</guid>
+      <description>Peinture 1    Peinture 2    Peinture 3    Peinture 4    Peinture 5    Peinture 6    Peinture 7       Show Page Navigation --         galerie :  Rythmes Blancs Ouvrir la fenêtre     Rythmes Blancs Fermer la fenêtre     Lorem ipsum dolor sit amet consectetur adipisicing elit.</description>
     </item>
     
     <item>
       <title>Le jardin vertical</title>
-      <link>http://example.org/galeries/le-jardin-vertical/</link>
+      <link>https://sebthiroux.com/planasdefont/galeries/le-jardin-vertical/</link>
       <pubDate>Sun, 22 Nov 2020 21:30:18 +0100</pubDate>
       
-      <guid>http://example.org/galeries/le-jardin-vertical/</guid>
+      <guid>https://sebthiroux.com/planasdefont/galeries/le-jardin-vertical/</guid>
       <description>La rencontre du jardin…</description>
     </item>
     
     <item>
       <title>Biographie</title>
-      <link>http://example.org/biographie/</link>
+      <link>https://sebthiroux.com/planasdefont/biographie/</link>
       <pubDate>Sun, 22 Nov 2020 15:44:09 +0100</pubDate>
       
-      <guid>http://example.org/biographie/</guid>
+      <guid>https://sebthiroux.com/planasdefont/biographie/</guid>
       <description>La musique, la danse, le dessin, la couture se sont rencontrés pour moi sur la terre Marocaine où je suis née, et sont devenus très tôt dans mon enfance la préocupation de mes mains et de mon corps.
 Atelier de l’artiste.  Sur cette terre où règnent des contrastes très forts, des paysages sévères inhabités aux tons sourds, au silence impréssionnant, d’autres aux ocres jaune et rouge écrasés de lumière, sans oublier les fêtes luxuriantes de couleurs, de parfums, et de plats raffinés, ici, se sont coagulé mes différentes aspirations.</description>
     </item>
     
     <item>
       <title>Participation au salon d&#39;automne 2016</title>
-      <link>http://example.org/participation-au-salon-d-automne-2016/</link>
+      <link>https://sebthiroux.com/planasdefont/participation-au-salon-d-automne-2016/</link>
       <pubDate>Sun, 22 Nov 2020 12:02:18 +0100</pubDate>
       
-      <guid>http://example.org/participation-au-salon-d-automne-2016/</guid>
+      <guid>https://sebthiroux.com/planasdefont/participation-au-salon-d-automne-2016/</guid>
       <description>Champs Elysées du 13 au 16 octobre.</description>
     </item>
     
     <item>
       <title>Participation au salon art en capital</title>
-      <link>http://example.org/participation-au-salon-art-en-capital/</link>
+      <link>https://sebthiroux.com/planasdefont/participation-au-salon-art-en-capital/</link>
       <pubDate>Sun, 22 Nov 2020 11:49:58 +0100</pubDate>
       
-      <guid>http://example.org/participation-au-salon-art-en-capital/</guid>
+      <guid>https://sebthiroux.com/planasdefont/participation-au-salon-art-en-capital/</guid>
       <description>Grand Palais du 4 au 8 décembre 2013. Pour plus d’information, rendez-vous sur le site du salon.</description>
     </item>
     
     <item>
       <title>Participation au salon d&#39;automne 2012</title>
-      <link>http://example.org/participation-au-salon-d-automne-2012/</link>
+      <link>https://sebthiroux.com/planasdefont/participation-au-salon-d-automne-2012/</link>
       <pubDate>Sun, 22 Nov 2020 11:40:58 +0100</pubDate>
       
-      <guid>http://example.org/participation-au-salon-d-automne-2012/</guid>
+      <guid>https://sebthiroux.com/planasdefont/participation-au-salon-d-automne-2012/</guid>
       <description>Champs Elysées du 25 au 29 octobre.</description>
     </item>
     
     <item>
       <title>Vue d&#39;en haut</title>
-      <link>http://example.org/galeries/vue-d-en-haut/</link>
+      <link>https://sebthiroux.com/planasdefont/galeries/vue-d-en-haut/</link>
       <pubDate>Sat, 21 Nov 2020 23:41:32 +0100</pubDate>
       
-      <guid>http://example.org/galeries/vue-d-en-haut/</guid>
+      <guid>https://sebthiroux.com/planasdefont/galeries/vue-d-en-haut/</guid>
       <description>Une série de collages qui…</description>
     </item>
     
     <item>
       <title>À vol d&#39;oiseaux</title>
-      <link>http://example.org/galeries/a-vol-d-oiseaux/</link>
+      <link>https://sebthiroux.com/planasdefont/galeries/a-vol-d-oiseaux/</link>
       <pubDate>Fri, 20 Nov 2020 10:31:10 +0100</pubDate>
       
-      <guid>http://example.org/galeries/a-vol-d-oiseaux/</guid>
+      <guid>https://sebthiroux.com/planasdefont/galeries/a-vol-d-oiseaux/</guid>
       <description>Une introduction à rédiger…</description>
     </item>
     
     <item>
       <title>La source</title>
-      <link>http://example.org/galeries/la-source/</link>
+      <link>https://sebthiroux.com/planasdefont/galeries/la-source/</link>
       <pubDate>Thu, 19 Nov 2020 10:35:03 +0100</pubDate>
       
-      <guid>http://example.org/galeries/la-source/</guid>
+      <guid>https://sebthiroux.com/planasdefont/galeries/la-source/</guid>
       <description>Une introduction à rédiger…</description>
     </item>
     
     <item>
       <title>Croquis au crayon</title>
-      <link>http://example.org/galeries/croquis-au-crayon/</link>
+      <link>https://sebthiroux.com/planasdefont/galeries/croquis-au-crayon/</link>
       <pubDate>Wed, 18 Nov 2020 10:35:30 +0100</pubDate>
       
-      <guid>http://example.org/galeries/croquis-au-crayon/</guid>
+      <guid>https://sebthiroux.com/planasdefont/galeries/croquis-au-crayon/</guid>
       <description>Une introduction à rédiger…</description>
     </item>
     
     <item>
       <title>Croquis à l&#39;encre de chine</title>
-      <link>http://example.org/galeries/croquis-a-l-encre-de-chine/</link>
+      <link>https://sebthiroux.com/planasdefont/galeries/croquis-a-l-encre-de-chine/</link>
       <pubDate>Tue, 17 Nov 2020 10:36:03 +0100</pubDate>
       
-      <guid>http://example.org/galeries/croquis-a-l-encre-de-chine/</guid>
+      <guid>https://sebthiroux.com/planasdefont/galeries/croquis-a-l-encre-de-chine/</guid>
       <description>Une introduction à rédiger…</description>
     </item>
     
     <item>
       <title>Croquis au fusain</title>
-      <link>http://example.org/galeries/croquis-au-fusain/</link>
+      <link>https://sebthiroux.com/planasdefont/galeries/croquis-au-fusain/</link>
       <pubDate>Mon, 16 Nov 2020 10:46:31 +0100</pubDate>
       
-      <guid>http://example.org/galeries/croquis-au-fusain/</guid>
+      <guid>https://sebthiroux.com/planasdefont/galeries/croquis-au-fusain/</guid>
       <description>Une introduction à rédiger…</description>
     </item>
     

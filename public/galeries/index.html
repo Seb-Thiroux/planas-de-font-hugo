@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 
 
@@ -15,6 +15,8 @@
 <meta name="description" content="C'est le studio de design graphique de Sébastien Thiroux, spécialisé dans la création d'identité visuelle et son déploiment sur le web">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<script>document.getElementsByTagName("html")[0].className += " js";</script>
+
 <link rel="manifest" href="site.webmanifest">
 <link rel="apple-touch-icon" href="icon.png">
 
@@ -22,252 +24,319 @@
 <link rel="stylesheet" href="https://use.typekit.net/kac6wgd.css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" type="text/css">
 
-<link rel="stylesheet" href="http://example.org/css/main.css"><link rel="stylesheet" href="http://example.org/js/main.js">
+<link rel="stylesheet" href="https://sebthiroux.com/planasdefont/css/main.css">
 
-    </head>
+</head>
 
-    <body class="site ">
+<body class="site ">
+	<div class="padding-component hide@md no-js:is-hidden">
+    <button class="btn btn--primary" aria-controls="sidebar">Menu</button>
+  </div>
+  
+  <div class="flex@md min-height-100vh">
+  	<aside class="sidebar sidebar--static@md js-sidebar" data-static-class="position-relative z-index-1 flex-grow max-width-xxxxs border-right" id="sidebar" aria-labelledby="sidebar-title">
+  <div class="sidebar__panel sticky-menu">
+    <header class="sidebar__header z-index-2">
+      <a class="brand" href="https://sebthiroux.com/planasdefont/" title="lien de retour à la page d'accueil">
+      	<img src="img/logo-signature.png" alt="Logo Planas de Font">
+    	</a>
+
+      <button class="reset sidebar__close-btn js-sidebar__close-btn js-tab-focus">
+        <svg class="icon icon--xs" viewBox="0 0 16 16"><title>Fermer le menu</title><g stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><line x1="13.5" y1="2.5" x2="2.5" y2="13.5"></line><line x1="2.5" y1="2.5" x2="13.5" y2="13.5"></line></g></svg>
+      </button>
+    </header>
+    
+    <div class="position-relative z-index-1">
       
-      <header id="top" class="site-header site-container site-main-blocks ">
-	<div class="">
-		<a class="brand" href="/" title="lien de retour à la page d'accueil">
-      Planas de Font
-    </a>
-
-		<nav class="site-nav">
-  <ul class="menu"><li class="menu__item"><a href="/index.html" class="">Accueil</a></li><li class="menu__item"><a href="/galeries" class="active">Galeries</a></li><li class="menu__item"><a href="/biographie" class="">Biographie</a></li><li class="menu__item"><a href="/contact" class="">Contact</a></li>
+      <div class="text-component">
+        <a href="index.html">
+          <img class="brand" src="img/logo-signature.png" alt="Logo Planas de Font">
+        </a>
+        <nav class="site-nav">
+  <ul class="menu"><li class="menu__item "><a href="https://sebthiroux.com/planasdefont/index.html">Accueil</a></li><li class="menu__item "><a href="https://sebthiroux.com/planasdefont/galeries">Galeries</a></li><li class="menu__item "><a href="https://sebthiroux.com/planasdefont/biographie">Biographie</a></li><li class="menu__item "><a href="https://sebthiroux.com/planasdefont/contact">Me contacter</a></li>
   </ul><ul class="language-switcher">
   
-    <li class="">
-      <a class="" href="http://example.org/">Français</a>
+    <li>
+      <a href="https://sebthiroux.com/planasdefont/">Français</a>
     </li>
   
-    <li class="">
-      <a class="" href="http://example.org/en/">English</a>
+    <li>
+      <a href="https://sebthiroux.com/planasdefont/en/">English</a>
     </li>
   
 </ul></nav>
+      </div>
+      
+    </div>
+  </div>
+</aside>
 
-	</div>
-</header>
 
+  	
+    
+  <main class="position-relative z-index-1 flex-grow page__content-galeries">
+    
+    
+
+    
+    <section class="section-block-flex margin-bottom-xl">
+      <h1 class="page-title section-title margin-bottom-xxl">Galeries</h1>
+
+      <form class="filter__galeries-form">
+        <fieldset class="margin-bottom-md">
+          <legend class="form-legend">Filtrer</legend>
+
+          <ul class="flex flex-wrap gap-md" aria-controls="filter-gallery">
+            <li class="flex items-center">
+              <input class="margin-right-xxxs" type="radio" name="radio-category" id="radio-category-all" data-filter="*" checked>
+              <label class="text-sm" for="radio-category-all">Tout</label>
+            </li>
+
+            <li class="flex items-center">
+              <input class="margin-right-xxxs" type="radio" name="radio-category" id="radio-category-1" data-filter="[themes]">
+              <label class="text-sm" for="radio-category-1">thèmes</label>
+            </li>
+        
+            <li class="flex items-center">
+              <input class="margin-right-xxxs" type="radio" name="radio-category" id="radio-category-2" data-filter="[techniques]">
+              <label class="text-sm" for="radio-category-2">techniques</label>
+            </li>
+        
+            <li class="flex items-center">
+              <input class="margin-right-xxxs" type="radio" name="radio-category" id="radio-category-3" data-filter="[evenements]">
+              <label class="text-sm" for="radio-category-3">évènements</label>
+            </li>
+          </ul>
+        </fieldset>
+      </form>
 
       
-    
-    <main class="site-content site-main-blocks galeries-list-page" aria-role="main">
-      <h1 class="page-title block-title">Galeries</h1>
+        <ul class="js-filter" id="filter-gallery">
         
+          <li class="article-block js-filter__item" data-filter="[themes]">
+            <a class="story-v3 padding-y-md js-story-v3" href="https://sebthiroux.com/planasdefont/galeries/sous-le-petit-pont/" data-story-img-src="" data-story-img-align="right" data-story-img-offset-x="60px" data-story-img-width="30%" data-story-img-class="display@lg">
+              <div class="grid gap-md">
+
+                <div class="text-component col-6@md position-relative z-index-2">
+                  <h1 class="story-v3__title text-xl font-italic">Sous Le Petit Pont</h1>
+                  
+                </div>
+
+                <div class="display@md col@md flex@md justify-end" aria-hidden="true">
+                    <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="37" y1="14" x2="47" y2="24" />
+                        <line x1="47" y1="24" x2="37" y2="34" />
+                        <line x1="47" y1="24" x2="1.5" y2="24" />
+                      </g>
+                    </svg>
+                </div>
+
+              </div>
+            </a>
+          </li>
+
         
+          <li class="article-block js-filter__item" data-filter="[themes]">
+            <a class="story-v3 padding-y-md js-story-v3" href="https://sebthiroux.com/planasdefont/galeries/rythmes-blancs/" data-story-img-src="../images/signature-obaldia.jpg" data-story-img-align="right" data-story-img-offset-x="60px" data-story-img-width="30%" data-story-img-class="display@lg">
+              <div class="grid gap-md">
+
+                <div class="text-component col-6@md position-relative z-index-2">
+                  <h1 class="story-v3__title text-xl font-italic">Rythmes Blancs</h1>
+                  
+                </div>
+
+                <div class="display@md col@md flex@md justify-end" aria-hidden="true">
+                    <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="37" y1="14" x2="47" y2="24" />
+                        <line x1="47" y1="24" x2="37" y2="34" />
+                        <line x1="47" y1="24" x2="1.5" y2="24" />
+                      </g>
+                    </svg>
+                </div>
+
+              </div>
+            </a>
+          </li>
 
         
-          <section class="">
+          <li class="article-block js-filter__item" data-filter="[themes]">
+            <a class="story-v3 padding-y-md js-story-v3" href="https://sebthiroux.com/planasdefont/galeries/le-jardin-vertical/" data-story-img-src="" data-story-img-align="right" data-story-img-offset-x="60px" data-story-img-width="30%" data-story-img-class="display@lg">
+              <div class="grid gap-md">
 
-            
-            <article class="article-block galeries-list">
-              <div>
-                <h3 class="article-title"><a class="galeries-link" href="http://example.org/galeries/rythmes-blancs/">Rythmes Blancs</a></h3>
-                
-    <p class="thumbnail__categories">
-        <span><a href="http://example.org/categories//"></a></span>
-        <span><a href="http://example.org/categories//"></a></span>
+                <div class="text-component col-6@md position-relative z-index-2">
+                  <h1 class="story-v3__title text-xl font-italic">Le jardin vertical</h1>
+                  
+                </div>
+
+                <div class="display@md col@md flex@md justify-end" aria-hidden="true">
+                    <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="37" y1="14" x2="47" y2="24" />
+                        <line x1="47" y1="24" x2="37" y2="34" />
+                        <line x1="47" y1="24" x2="1.5" y2="24" />
+                      </g>
+                    </svg>
+                </div>
+
+              </div>
+            </a>
+          </li>
+
         
-    </p>
+          <li class="article-block js-filter__item" data-filter="[themes]">
+            <a class="story-v3 padding-y-md js-story-v3" href="https://sebthiroux.com/planasdefont/galeries/vue-d-en-haut/" data-story-img-src="" data-story-img-align="right" data-story-img-offset-x="60px" data-story-img-width="30%" data-story-img-class="display@lg">
+              <div class="grid gap-md">
+
+                <div class="text-component col-6@md position-relative z-index-2">
+                  <h1 class="story-v3__title text-xl font-italic">Vue d&#39;en haut</h1>
+                  
+                </div>
+
+                <div class="display@md col@md flex@md justify-end" aria-hidden="true">
+                    <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="37" y1="14" x2="47" y2="24" />
+                        <line x1="47" y1="24" x2="37" y2="34" />
+                        <line x1="47" y1="24" x2="1.5" y2="24" />
+                      </g>
+                    </svg>
+                </div>
 
               </div>
+            </a>
+          </li>
 
-              <div class="more-link" aria-hidden="true">
-                <a class="galeries-link" href="http://example.org/galeries/rythmes-blancs/">
-                  <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
-                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                      <line x1="37" y1="14" x2="47" y2="24" />
-                      <line x1="47" y1="24" x2="37" y2="34" />
-                      <line x1="47" y1="24" x2="1.5" y2="24" />
-                    </g>
-                  </svg>
-                </a>
-              </div>
-            </article>
-            
-            <article class="article-block galeries-list">
-              <div>
-                <h3 class="article-title"><a class="galeries-link" href="http://example.org/galeries/le-jardin-vertical/">Le jardin vertical</a></h3>
-                
-    <p class="thumbnail__categories">
-        <span><a href="http://example.org/categories/huile-sur-toile/">Huile sur toile</a></span>
-        <span><a href="http://example.org/categories//"></a></span>
         
-    </p>
+          <li class="article-block js-filter__item" data-filter="[themes]">
+            <a class="story-v3 padding-y-md js-story-v3" href="https://sebthiroux.com/planasdefont/galeries/a-vol-d-oiseaux/" data-story-img-src="" data-story-img-align="right" data-story-img-offset-x="60px" data-story-img-width="30%" data-story-img-class="display@lg">
+              <div class="grid gap-md">
+
+                <div class="text-component col-6@md position-relative z-index-2">
+                  <h1 class="story-v3__title text-xl font-italic">À vol d&#39;oiseaux</h1>
+                  
+                </div>
+
+                <div class="display@md col@md flex@md justify-end" aria-hidden="true">
+                    <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="37" y1="14" x2="47" y2="24" />
+                        <line x1="47" y1="24" x2="37" y2="34" />
+                        <line x1="47" y1="24" x2="1.5" y2="24" />
+                      </g>
+                    </svg>
+                </div>
 
               </div>
+            </a>
+          </li>
 
-              <div class="more-link" aria-hidden="true">
-                <a class="galeries-link" href="http://example.org/galeries/le-jardin-vertical/">
-                  <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
-                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                      <line x1="37" y1="14" x2="47" y2="24" />
-                      <line x1="47" y1="24" x2="37" y2="34" />
-                      <line x1="47" y1="24" x2="1.5" y2="24" />
-                    </g>
-                  </svg>
-                </a>
-              </div>
-            </article>
-            
-            <article class="article-block galeries-list">
-              <div>
-                <h3 class="article-title"><a class="galeries-link" href="http://example.org/galeries/vue-d-en-haut/">Vue d&#39;en haut</a></h3>
-                
-    <p class="thumbnail__categories">
-        <span><a href="http://example.org/categories/huile-sur-toile/">Huile sur toile</a></span>
-        <span><a href="http://example.org/categories//"></a></span>
         
-    </p>
+          <li class="article-block js-filter__item" data-filter="[themes]">
+            <a class="story-v3 padding-y-md js-story-v3" href="https://sebthiroux.com/planasdefont/galeries/la-source/" data-story-img-src="" data-story-img-align="right" data-story-img-offset-x="60px" data-story-img-width="30%" data-story-img-class="display@lg">
+              <div class="grid gap-md">
+
+                <div class="text-component col-6@md position-relative z-index-2">
+                  <h1 class="story-v3__title text-xl font-italic">La source</h1>
+                  
+                </div>
+
+                <div class="display@md col@md flex@md justify-end" aria-hidden="true">
+                    <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="37" y1="14" x2="47" y2="24" />
+                        <line x1="47" y1="24" x2="37" y2="34" />
+                        <line x1="47" y1="24" x2="1.5" y2="24" />
+                      </g>
+                    </svg>
+                </div>
 
               </div>
+            </a>
+          </li>
 
-              <div class="more-link" aria-hidden="true">
-                <a class="galeries-link" href="http://example.org/galeries/vue-d-en-haut/">
-                  <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
-                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                      <line x1="37" y1="14" x2="47" y2="24" />
-                      <line x1="47" y1="24" x2="37" y2="34" />
-                      <line x1="47" y1="24" x2="1.5" y2="24" />
-                    </g>
-                  </svg>
-                </a>
-              </div>
-            </article>
-            
-            <article class="article-block galeries-list">
-              <div>
-                <h3 class="article-title"><a class="galeries-link" href="http://example.org/galeries/a-vol-d-oiseaux/">À vol d&#39;oiseaux</a></h3>
-                
-    <p class="thumbnail__categories">
-        <span><a href="http://example.org/categories/huile-sur-toile/">Huile sur toile</a></span>
-        <span><a href="http://example.org/categories/strong-0123456789/">strong 0123456789</a></span>
         
-    </p>
+          <li class="article-block js-filter__item" data-filter="[techniques]">
+            <a class="story-v3 padding-y-md js-story-v3" href="https://sebthiroux.com/planasdefont/galeries/croquis-au-crayon/" data-story-img-src="" data-story-img-align="right" data-story-img-offset-x="60px" data-story-img-width="30%" data-story-img-class="display@lg">
+              <div class="grid gap-md">
+
+                <div class="text-component col-6@md position-relative z-index-2">
+                  <h1 class="story-v3__title text-xl font-italic">Croquis au crayon</h1>
+                  
+                </div>
+
+                <div class="display@md col@md flex@md justify-end" aria-hidden="true">
+                    <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="37" y1="14" x2="47" y2="24" />
+                        <line x1="47" y1="24" x2="37" y2="34" />
+                        <line x1="47" y1="24" x2="1.5" y2="24" />
+                      </g>
+                    </svg>
+                </div>
 
               </div>
+            </a>
+          </li>
 
-              <div class="more-link" aria-hidden="true">
-                <a class="galeries-link" href="http://example.org/galeries/a-vol-d-oiseaux/">
-                  <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
-                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                      <line x1="37" y1="14" x2="47" y2="24" />
-                      <line x1="47" y1="24" x2="37" y2="34" />
-                      <line x1="47" y1="24" x2="1.5" y2="24" />
-                    </g>
-                  </svg>
-                </a>
-              </div>
-            </article>
-            
-            <article class="article-block galeries-list">
-              <div>
-                <h3 class="article-title"><a class="galeries-link" href="http://example.org/galeries/la-source/">La source</a></h3>
-                
-    <p class="thumbnail__categories">
-        <span><a href="http://example.org/categories//"></a></span>
-        <span><a href="http://example.org/categories//"></a></span>
         
-    </p>
+          <li class="article-block js-filter__item" data-filter="[techniques]">
+            <a class="story-v3 padding-y-md js-story-v3" href="https://sebthiroux.com/planasdefont/galeries/croquis-a-l-encre-de-chine/" data-story-img-src="" data-story-img-align="right" data-story-img-offset-x="60px" data-story-img-width="30%" data-story-img-class="display@lg">
+              <div class="grid gap-md">
+
+                <div class="text-component col-6@md position-relative z-index-2">
+                  <h1 class="story-v3__title text-xl font-italic">Croquis à l&#39;encre de chine</h1>
+                  
+                </div>
+
+                <div class="display@md col@md flex@md justify-end" aria-hidden="true">
+                    <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="37" y1="14" x2="47" y2="24" />
+                        <line x1="47" y1="24" x2="37" y2="34" />
+                        <line x1="47" y1="24" x2="1.5" y2="24" />
+                      </g>
+                    </svg>
+                </div>
 
               </div>
+            </a>
+          </li>
 
-              <div class="more-link" aria-hidden="true">
-                <a class="galeries-link" href="http://example.org/galeries/la-source/">
-                  <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
-                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                      <line x1="37" y1="14" x2="47" y2="24" />
-                      <line x1="47" y1="24" x2="37" y2="34" />
-                      <line x1="47" y1="24" x2="1.5" y2="24" />
-                    </g>
-                  </svg>
-                </a>
-              </div>
-            </article>
-            
-            <article class="article-block galeries-list">
-              <div>
-                <h3 class="article-title"><a class="galeries-link" href="http://example.org/galeries/croquis-au-crayon/">Croquis au crayon</a></h3>
-                
-    <p class="thumbnail__categories">
-        <span><a href="http://example.org/categories//"></a></span>
-        <span><a href="http://example.org/categories//"></a></span>
         
-    </p>
+          <li class="article-block js-filter__item" data-filter="[techniques]">
+            <a class="story-v3 padding-y-md js-story-v3" href="https://sebthiroux.com/planasdefont/galeries/croquis-au-fusain/" data-story-img-src="" data-story-img-align="right" data-story-img-offset-x="60px" data-story-img-width="30%" data-story-img-class="display@lg">
+              <div class="grid gap-md">
+
+                <div class="text-component col-6@md position-relative z-index-2">
+                  <h1 class="story-v3__title text-xl font-italic">Croquis au fusain</h1>
+                  
+                </div>
+
+                <div class="display@md col@md flex@md justify-end" aria-hidden="true">
+                    <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
+                      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="37" y1="14" x2="47" y2="24" />
+                        <line x1="47" y1="24" x2="37" y2="34" />
+                        <line x1="47" y1="24" x2="1.5" y2="24" />
+                      </g>
+                    </svg>
+                </div>
 
               </div>
+            </a>
+          </li>
 
-              <div class="more-link" aria-hidden="true">
-                <a class="galeries-link" href="http://example.org/galeries/croquis-au-crayon/">
-                  <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
-                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                      <line x1="37" y1="14" x2="47" y2="24" />
-                      <line x1="47" y1="24" x2="37" y2="34" />
-                      <line x1="47" y1="24" x2="1.5" y2="24" />
-                    </g>
-                  </svg>
-                </a>
-              </div>
-            </article>
-            
-            <article class="article-block galeries-list">
-              <div>
-                <h3 class="article-title"><a class="galeries-link" href="http://example.org/galeries/croquis-a-l-encre-de-chine/">Croquis à l&#39;encre de chine</a></h3>
-                
-    <p class="thumbnail__categories">
-        <span><a href="http://example.org/categories//"></a></span>
-        <span><a href="http://example.org/categories//"></a></span>
         
-    </p>
+        </ul>
+      
+      
+    </section>
+  </main>
 
-              </div>
-
-              <div class="more-link" aria-hidden="true">
-                <a class="galeries-link" href="http://example.org/galeries/croquis-a-l-encre-de-chine/">
-                  <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
-                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                      <line x1="37" y1="14" x2="47" y2="24" />
-                      <line x1="47" y1="24" x2="37" y2="34" />
-                      <line x1="47" y1="24" x2="1.5" y2="24" />
-                    </g>
-                  </svg>
-                </a>
-              </div>
-            </article>
-            
-            <article class="article-block galeries-list">
-              <div>
-                <h3 class="article-title"><a class="galeries-link" href="http://example.org/galeries/croquis-au-fusain/">Croquis au fusain</a></h3>
-                
-    <p class="thumbnail__categories">
-        <span><a href="http://example.org/categories//"></a></span>
-        <span><a href="http://example.org/categories//"></a></span>
-        
-    </p>
-
-              </div>
-
-              <div class="more-link" aria-hidden="true">
-                <a class="galeries-link" href="http://example.org/galeries/croquis-au-fusain/">
-                  <svg class="story-v3__icon icon position-relative z-index-2" viewBox="0 0 48 48">
-                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                      <line x1="37" y1="14" x2="47" y2="24" />
-                      <line x1="47" y1="24" x2="37" y2="34" />
-                      <line x1="47" y1="24" x2="1.5" y2="24" />
-                    </g>
-                  </svg>
-                </a>
-              </div>
-            </article>
-            
-
-          </section>
-        
-    </main>
-
-
-    </body>
+  </div>
+  
+  <script src="https://sebthiroux.com/planasdefont/js/scripts.min.js"></script>
+</body>
 </html>

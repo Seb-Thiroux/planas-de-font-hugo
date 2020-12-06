@@ -7,7 +7,6 @@ slug: ""
 summary: "Une introduction à rédiger…"
 thumbnail: ""
 ---
-
 {{< rawhtml >}}
 <div class="float-sidenav js-float-sidenav" id="float-sidenav-1">
     <nav class="float-sidenav__nav">

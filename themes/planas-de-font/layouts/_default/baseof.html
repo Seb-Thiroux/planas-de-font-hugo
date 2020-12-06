@@ -4,7 +4,7 @@
   {{ partial "head.html" . }}
 </head>
 
-<body class="site {{ if ne $.Site.Params.defaultTheme "light" -}} darkmode {{- end -}}">
+<body class="site {{ if ne $.Site.Params.defaultTheme "light" -}} darkmode {{- end -}} {{ with .Params.pageName }}{{.}}{{ end }}">
 	<div class="padding-component hide@md no-js:is-hidden">
     <button class="btn btn--primary" aria-controls="sidebar">Menu</button>
   </div>
@@ -15,6 +15,9 @@
 
   	{{ block "main" . }}{{ end }}
   </div>
-  <script src="/js/scripts.js"></script>
+  <!-- <script src="/js/scripts.js"></script> -->
+  {{ range .Site.Params.main_js -}}
+  	<script src="{{ . | absURL}}"></script>
+	{{- end }}
 </body>
 </html>

@@ -2,13 +2,14 @@
 title: "Biographie"
 date: 2020-11-22T15:44:09+01:00
 draft: false
+pageName: "bio-page"
 ---
 
 {{< rawhtml >}}
 	<section class="columns-layout">
-		<p class="first-paragraph"><span id="dropcap">L</span>a musique, la danse, le dessin, la couture se sont rencontrés pour moi sur la terre Marocaine où je suis née, et sont devenus très tôt dans mon enfance la préocupation de mes mains et de mon corps.</p>
+		<p class="first-paragraph drop-cap">La musique, la danse, le dessin, la couture se sont rencontrés pour moi sur la terre Marocaine où je suis née, et sont devenus très tôt dans mon enfance la préocupation de mes mains et de mon corps.</p>
 		<figure class="columns-layout-figure">
-			<img src="/img/planas-de-font-atelier-01.jpg" alt="Portrait de Planas de Font">
+			<img src="../img/planas-de-font-atelier-01.jpg" alt="Portrait de Planas de Font">
 			<figcaption>Atelier de l’artiste.</figcaption>
 		</figure>
 		<p>Sur cette terre où règnent des contrastes très forts, des paysages sévères inhabités aux tons sourds, au silence impréssionnant, d’autres aux ocres jaune et rouge écrasés de lumière, sans oublier les fêtes luxuriantes de couleurs, de parfums, et de plats raffinés, ici, se sont coagulé mes différentes aspirations. Un père ingénieur agronome dessinant avec talent, un grand-père Catalan Espagnol travaillant avant guerre chez Chanel et dont je suis devenue toute petite “l’assistante”, sont venus compléter le terreau Marocain.</p>
@@ -21,8 +22,8 @@ draft: false
 	</section>
 
 
-  <section class="stack calendar-block">
-  	<h2 class="block-title">Expositions & salons</h2>
+  <section class="calendar-block">
+  	<h2 class="section-title">Expositions & salons</h2>
   	<div class="calendar-grid">
 	  	<div>
 				<h3>Participation aux Salons suivants</h3>

@@ -2,38 +2,39 @@
 title: "Biography"
 date: 2020-11-22T15:44:09+01:00
 draft: false
+pageName: "bio-page"
 ---
 
 {{< rawhtml >}}
 	<section class="columns-layout">
-		<p class="first-paragraph"><span id="dropcap">L</span>a musique, la danse, le dessin, la couture se sont rencontrés pour moi sur la terre Marocaine où je suis née, et sont devenus très tôt dans mon enfance la préocupation de mes mains et de mon corps.</p>
+		<p class="first-paragraph drop-cap">Music, dance, drawing, sewing met for me on the Moroccan land where I was born, and became very early in my childhood the preoccupation of my body and hands.</p>
 		<figure class="columns-layout-figure">
-			<img src="/img/planas-de-font-atelier-01.jpg" alt="Portrait de Planas de Font">
-			<figcaption>Atelier de l’artiste.</figcaption>
+			<img src="../../img/planas-de-font-atelier-01.jpg" alt="Portrait de Planas de Font">
+			<figcaption>Artist's workshop.</figcaption>
 		</figure>
-		<p>Sur cette terre où règnent des contrastes très forts, des paysages sévères inhabités aux tons sourds, au silence impréssionnant, d’autres aux ocres jaune et rouge écrasés de lumière, sans oublier les fêtes luxuriantes de couleurs, de parfums, et de plats raffinés, ici, se sont coagulé mes différentes aspirations. Un père ingénieur agronome dessinant avec talent, un grand-père Catalan Espagnol travaillant avant guerre chez Chanel et dont je suis devenue toute petite “l’assistante”, sont venus compléter le terreau Marocain.</p>
-		<p>A notre retour en France, j’ai commencé la danse classique. Une discipline quotidienne rigoureuse, qui ne laisse aucune indulgence pour un quelconque relachement mental ou physique. Quelques années qui m’ont structuré. Des rencontres avec des chorégraphes, des interprètes, des écrivains, des poètes, des décorateurs, tous de grands talents et pour certains, des personnalités qui vous laissent un enseignement pour la vie.</p>
-		<p>La vie… qui vous impose aussi un rendez-vous brutal qui a bien faillit être sans retour. J’ai résisté.</p>
-		<p>Mon travail a repris dans un atelier de dessins pour tissus de Haute Couture, complété par des séances de dessin avec un ami sculpteur, et la peinture avec un peintre bien connu internationalement. Ces deux personnalités ont été déterminantes.</p>
-		<p>Première participation à un salon en 1983, le Salon de Montrouge, suivit par le Salon d’Automne, Grands et Jeunes d’Aujourd’hui, Réalités Nouvelles, Mac2000, Art Contemporain à Montreux, et des expositions personnelles à Paris, Strasbourg, Lausanne, La Chaux de Fond, Martigny, et l’Opéra de Montpellier.</p>
-		<p>J’aime les thèmes liés à la nature, eau, air, terre, végétal et minéral, à tous ces éléments qui font apparaitre la vie dans sa grande complexité et qui conjugue à la fois fragilité et résistance. J’attache une grande importance à la qualité de la matière, et à la structure verticale de celle-ci, puissant symbole d’ascension et de progrès.</p>
-		<p>Je poursuis mon travail à Paris dans mon atelier sur les techniques suivantes : huile, gouache, collage, acrylique sur tissu marouflé sur bois, dessin. Toujours “on the road”.</p>
+		<p>On this land where very strong contrasts reign, severe uninhabited landscapes with muted tones, breathtaking silence, others with yellow and red ochres crushed with light, not to mention the lush festivals of colors, scents, and refined dishes, here, my different aspirations have coagulated. A father who was an agricultural engineer who drew with talent, a Catalan Spanish grandfather working before the war at Chanel and for whom I became a very small “assistant”, came to complete the Moroccan soil.</p>
+		<p>When we returned to France, I started ballet dancing. A rigorous daily discipline, which leaves no indulgence for any mental or physical relaxation. A few years that have structured me. Meetings with choreographers, performers, writers, poets, decorators, all of great talent and for some, personalities who leave you with an education for life.</p>
+		<p>Life… which also imposes on you a brutal rendezvous which was almost without return. I resisted.</p>
+		<p>My work resumed in a design workshop for Haute Couture fabrics, completed by drawing sessions with a sculptor friend, and painting with a painter well known internationally. These two personalities were decisive.</p>
+		<p>First participation in a fair in 1983, the Salon de Montrouge, followed by the Salon d'Automne, Grands et Jeunes d'Aujourd'hui, Réalités Nouvelles, Mac2000, Contemporary Art in Montreux, and personal exhibitions in Paris, Strasbourg, Lausanne , La Chaux de Fond, Martigny, and the Opéra de Montpellier.</p>
+		<p>I like themes linked to nature, water, air, earth, plants and minerals, to all these elements which bring out life in its great complexity and which combines both fragility and resistance. I attach great importance to the quality of matter, and to its vertical structure, a powerful symbol of ascension and progress.</p>
+		<p>I continue my work in Paris in my workshop on the following techniques: oil, gouache, collage, acrylic on fabric mounted on wood, drawing. Always “on the road”.</p>
 	</section>
 
 
-  <section class="stack calendar-block">
-  	<h2 class="block-title">Expositions & salons</h2>
+  <section class="calendar-block">
+  	<h2 class="section-title">Exhibitions & fairs</h2>
   	<div class="calendar-grid">
 	  	<div>
-				<h3>Participation aux Salons suivants</h3>
+				<h3>Participation in the following exhibitions</h3>
 				<ul>
-					<li>Participation au Salon d’Automne 2012</li>
-					<li>Exposition collective à la Manufacture des Œillets.</li>
-					<li>Salon d’Art Contemporain de Montreux.</li>
-					<li>Salon d’Automne (sociétaire).</li>
-					<li>Salon “Grands et Jeunes d’Aujourd’hui”.</li>
-					<li>Salon Mac 2000.</li>
-					<li>Salon de Montrouge.</li>
+					<li>Participation to Salon d’Automne 2012</li>
+					<li>Collective exhibition at the Manufacture des Œillets.</li>
+					<li>Contemporary Art Fair in Montreux.</li>
+					<li>Salon d’Automne.</li>
+					<li>“Grands et Jeunes d’Aujourd’hui” fair.</li>
+					<li>Mac 2000's fair.</li>
+					<li>Montrouge's fair.</li>
 				</ul>
 			</div>
 			<div>

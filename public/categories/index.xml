@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on </title>
-    <link>http://example.org/categories/</link>
+    <link>https://sebthiroux.com/planasdefont/categories/</link>
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Sun, 22 Nov 2020 21:30:18 +0100</lastBuildDate><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Nov 2020 21:27:04 +0100</lastBuildDate><atom:link href="https://sebthiroux.com/planasdefont/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Huile sur toile</title>
-      <link>http://example.org/categories/huile-sur-toile/</link>
-      <pubDate>Sun, 22 Nov 2020 21:30:18 +0100</pubDate>
+      <title>themes</title>
+      <link>https://sebthiroux.com/planasdefont/categories/themes/</link>
+      <pubDate>Sun, 29 Nov 2020 21:27:04 +0100</pubDate>
       
-      <guid>http://example.org/categories/huile-sur-toile/</guid>
+      <guid>https://sebthiroux.com/planasdefont/categories/themes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>strong 0123456789</title>
-      <link>http://example.org/categories/strong-0123456789/</link>
-      <pubDate>Fri, 20 Nov 2020 10:31:10 +0100</pubDate>
+      <title>techniques</title>
+      <link>https://sebthiroux.com/planasdefont/categories/techniques/</link>
+      <pubDate>Wed, 18 Nov 2020 10:35:30 +0100</pubDate>
       
-      <guid>http://example.org/categories/strong-0123456789/</guid>
+      <guid>https://sebthiroux.com/planasdefont/categories/techniques/</guid>
       <description></description>
     </item>
     
